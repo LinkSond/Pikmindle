@@ -1,0 +1,2677 @@
+[
+    {
+        "id": 1,
+        "name": "Dwarf Bulborb",
+        "family": "Breadbug",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 3,
+        "health": 100,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“For a blissful bisque, mince the entire beast finely and stir in with heavy cream, artichoke hearts, and a pinch of black pepper. Heat slowly until piping hot. Mmmmm... Rich and creamy!”"
+    },
+    {
+        "id": 2,
+        "name": "Albino Dwarf Bulborb",
+        "family": "Grub-dog",
+        "appearances": [
+            4
+        ],
+        "weight": 3,
+        "health": 200,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Peel off the skin, starting at the tail end. Then slice thinly, and boil in a pot of heavily salted water. Serve immediately.”"
+    },
+    {
+        "id": 3,
+        "name": "Bulborb",
+        "family": "Grub-dog",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 10,
+        "health": 1000,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Plump specimens are best spit-roasted whole, stuffed with a lime and a slab of bacon. Baste frequently to ensure a magnificently moist haunch.”"
+    },
+    {
+        "id": 4,
+        "name": "Jumbo Bulborb",
+        "family": "Grub-dog",
+        "appearances": [
+            4
+        ],
+        "weight": 20,
+        "health": 2500,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“It's a large creature, but the meat is tender and flavorful. It's impossible to eat in one sitting, so store some portions for later. Coat the fattier meat in cooking oil and freeze. Leaner cuts should be smoked.”"
+    },
+    {
+        "id": 5,
+        "name": "Dwarf Orange Bulborb",
+        "family": "Breadbug",
+        "appearances": [
+            2,
+            3,
+            4
+        ],
+        "weight": 3,
+        "health": 200,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Although difficult to prepare, this exquisite creature is more than worth the effort. Great in fajitas!”"
+    },
+    {
+        "id": 6,
+        "name": "Orange Bulborb",
+        "family": "Grub-dog",
+        "appearances": [
+            2,
+            3,
+            4
+        ],
+        "weight": 10,
+        "health": 1800,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“This [REDACTED]'s meaty flanks make for deliciously savory steaks that shouldn't be missed.”"
+    },
+    {
+        "id": 7,
+        "name": "Dwarf Bulbear",
+        "family": "Grub-dog",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 3,
+        "health": 300,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Remove innards, stuff with sage and finely aged prosciutto, and broil until golden brown. The ultimate crowd-pleaser!”"
+    },
+    {
+        "id": 8,
+        "name": "Spotty Bulbear",
+        "family": "Grub-dog",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 12,
+        "health": 1800,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“For an unrivaled green curry, peel away the [REDACTED]'s skin, pulverize the juicy innards, and stew until curiously fragrant.”"
+    },
+    {
+        "id": 9,
+        "name": "Dwarf Frosty Bulborb",
+        "family": "Grub-dog",
+        "appearances": [
+            4
+        ],
+        "weight": 3,
+        "health": 100,
+        "attacks": [
+            "B",
+            "C"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“A sweet and savory meat that pairs well with a simple green salad.”"
+    },
+    {
+        "id": 10,
+        "name": "Frosty Bulborb",
+        "family": "Grub-dog",
+        "appearances": [
+            4
+        ],
+        "weight": 10,
+        "health": 1000,
+        "attacks": [
+            "B",
+            "C"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Sear the rich and fatty meat on both sides in a dab of butter, then sprinkle generously with fresh thyme. For those who prefer leaner cuts, I recommend the tip of the nose.”"
+    },
+    {
+        "id": 11,
+        "name": "Fiery Bulblax",
+        "family": "Grub-dog",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 12,
+        "health": 2000,
+        "attacks": [
+            "B",
+            "I"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“No stove? No problem! This sizzling beast practically cooks itself. Remember to thoroughly extinguish the steaks prior to eating.”"
+    },
+    {
+        "id": 12,
+        "name": "Whiptongue Bulborb",
+        "family": "Grub-dog",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 10,
+        "health": 1300,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Pat the tongue dry, then coat all sides with a spicy dry rub of your choice. Grill over high heat until the outside is perfectly crisped!”"
+    },
+    {
+        "id": 13,
+        "name": "Bulborb Larva",
+        "family": "Grub-dog",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 0,
+        "health": 1,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“This meager creature offers little meat, but its eyeballs are a local delicacy. Try them with okra and a dollop of sour cream!”"
+    },
+    {
+        "id": 14,
+        "name": "Empress Bulblax",
+        "family": "Grub-dog",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 20,
+        "health": 10000,
+        "attacks": [
+            "F",
+            "R",
+            "S"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“For a sophisticated delicacy, make a pâté de foie gras from this massively obese creature's liver and spread it over a sesame cracker.”"
+    },
+    {
+        "id": 15,
+        "name": "Emperor Bulblax",
+        "family": "Grub-dog",
+        "appearances": [
+            1,
+            2,
+            4
+        ],
+        "weight": 15,
+        "health": 3000,
+        "attacks": [
+            "B",
+            "F",
+            "L"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“To prep the tongue for cooking, marinate in olive oil and chop into cubes. Stir in a pot with carrots, potatoes, and chives, cover, and simmer over low heat for several hours. Accompany this mouthwatering, rustic stew with a hearty roll.”"
+    },
+    {
+        "id": 16,
+        "name": "Sovereign Bulblax",
+        "family": "Grub-dog",
+        "appearances": [
+            4
+        ],
+        "weight": 30,
+        "health": 8000,
+        "attacks": [
+            "B",
+            "F",
+            "L"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“For a light appetizer, pluck the ferns off its back and lightly cook to remove any astringent flavor. The tongue, eyes, lips, meat, and fat are very tasty and can be prepared in a variety of ways. Mature specimens have a more highly developed umami flavor.”"
+    },
+    {
+        "id": 17,
+        "name": "Fiery Blowhog",
+        "family": "Blowhog",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 5,
+        "health": 1000,
+        "attacks": [
+            "I"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Roast this flavorful beast for several hours, letting it stew in its own succulent juices. Don't worry about overcooking this beast... It's scorchproof.”"
+    },
+    {
+        "id": 18,
+        "name": "Watery Blowhog",
+        "family": "Blowhog",
+        "appearances": [
+            2,
+            3,
+            4
+        ],
+        "weight": 5,
+        "health": 1000,
+        "attacks": [
+            "E"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“This beast's unrivaled moistness gives it a melt-in-the-mouth quality that's incomparable.”"
+    },
+    {
+        "id": 19,
+        "name": "Snowy Blowhog",
+        "family": "Blowhog",
+        "appearances": [
+            4
+        ],
+        "weight": 5,
+        "health": 1000,
+        "attacks": [
+            "C"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Sprinkle lightly with salt, and eat while the ice bag is still fresh and crunchy. Just one bite will give you the most satisfying brain freeze.”"
+    },
+    {
+        "id": 20,
+        "name": "Titan Blowhog",
+        "family": "Blowhog",
+        "appearances": [
+            4
+        ],
+        "weight": 15,
+        "health": 2000,
+        "attacks": [
+            "I",
+            "D"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Creature too large to easily carve. Bigger is not better in this case.”"
+    },
+    {
+        "id": 21,
+        "name": "Blizzarding Blowhog",
+        "family": "Blowhog",
+        "appearances": [
+            4
+        ],
+        "weight": 15,
+        "health": 2000,
+        "attacks": [
+            "C",
+            "D"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Scrape the interior of its elongated nose with a spoon for a quick dessert of meaty shaved ice. Add a drizzle of sashimi-grade soy sauce to take it up a notch!”"
+    },
+    {
+        "id": 22,
+        "name": "Tusked Blowhog",
+        "family": "Tusked blowhog",
+        "appearances": [
+            4
+        ],
+        "weight": 7,
+        "health": 900,
+        "attacks": [
+            "B",
+            "V"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Stew with root veggies, wild greens, and a bit of miso for a mouthwatering and rustic flavor. Drain all the blood beforehand to avoid that gamy smell.”"
+    },
+    {
+        "id": 23,
+        "name": "Armored Cannon Larva",
+        "family": "Lithopod",
+        "appearances": [
+            2,
+            3,
+            4
+        ],
+        "weight": 7,
+        "health": 900,
+        "attacks": [
+            "F",
+            "R"
+        ],
+        "habitat": [
+            "G"
+        ],
+        "louieNote": "“Carefully remove every grain of sand, peel back the exoskeleton, and slurp heartily! Or deep-fry it too!”"
+    },
+    {
+        "id": 24,
+        "name": "Horned Cannon Beetle",
+        "family": "Lithopod",
+        "appearances": [
+            4
+        ],
+        "weight": 30,
+        "health": 5000,
+        "attacks": [
+            "F",
+            "R"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Drop into boiling water, and let it cook until the shell turns red. Remove from the pot and peel. Sprinkle the drained meat with rock salt.”"
+    },
+    {
+        "id": 25,
+        "name": "Arctic Cannon Larva",
+        "family": "Lithopod",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 7,
+        "health": 900,
+        "attacks": [
+            "R",
+            "V"
+        ],
+        "habitat": [
+            "G"
+        ],
+        "louieNote": "“Peel back the shell, and sprinkle the tender meat with a dash of salt before slurping it up raw. For a refreshing dessert, pour fruit juice over the snowballs!”"
+    },
+    {
+        "id": 26,
+        "name": "Arctic Cannon Beetle",
+        "family": "Lithopod",
+        "appearances": [
+            4
+        ],
+        "weight": 30,
+        "health": 4500,
+        "attacks": [
+            "B",
+            "R",
+            "F",
+            "V"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Boil the meaty legs until fully cooked, then drizzle with a generous amount of lemon juice. Once the juice has seeped its way into the muscle fibers, suck the meat out of the shell with one big slurp.”"
+    },
+    {
+        "id": 27,
+        "name": "Female Sheargrub",
+        "family": "Mandiblard",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 45,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“For an unforgettable quiche, slice this creature up and mix with four eggs, two vine-ripened tomatoes, diced zucchini, and generous handfuls of feta and Swiss. Bake until crusty and golden. This beast is most flavorful if caught and cooked just after laying its eggs.”"
+    },
+    {
+        "id": 28,
+        "name": "Male Sheargrub",
+        "family": "Mandiblard",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 45,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“Spread several specimens in the bottom of a casserole dish, layer with sliced avocado, and top with cheese. Bake until the meat is cooked through and the cheese is lusciously browned.”"
+    },
+    {
+        "id": 29,
+        "name": "Mama Sheargrub",
+        "family": "Mandiblard",
+        "appearances": [
+            4
+        ],
+        "weight": 10,
+        "health": 1000,
+        "attacks": [
+            "F"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“Best enjoyed when big and round—and full of eggs. Salt lightly, then grill. The squishy, sticky mouthfeel will have you coming back for more.”"
+    },
+    {
+        "id": 30,
+        "name": "Shearwig",
+        "family": "Mandiblard",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 74,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "A",
+            "G"
+        ],
+        "louieNote": "“Grate this beast into a zest, and whisk with sugar, cream, and chopped dark chocolate for a lusciously indulgent mousse that's a true culinary coup de grâce!”"
+    },
+    {
+        "id": 31,
+        "name": "Shearflea",
+        "family": "Springjab",
+        "appearances": [
+            4
+        ],
+        "weight": 1,
+        "health": 45,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“Salty, sour, and sometimes sweet. The flavor changes depending on which living creature it's fed from most recently.”"
+    },
+    {
+        "id": 32,
+        "name": "Joustmite",
+        "family": "Burrow-nit",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 7,
+        "health": 450,
+        "attacks": [
+            "B",
+            "P"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“Boil in the shell with a pinch of salt until bright red, then serve piping hot with tartar sauce.”"
+    },
+    {
+        "id": 33,
+        "name": "Flighty Joustmite",
+        "family": "Burrow-nit",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 7,
+        "health": 600,
+        "attacks": [
+            "B",
+            "P"
+        ],
+        "habitat": [
+            "A",
+            "G"
+        ],
+        "louieNote": "“Remove shell, roast over a low flame, then grind meat. Whisk paste into olive oil until emulsified. An extra dash of cumin lends some earthiness to this spicy salad dressing.”"
+    },
+    {
+        "id": 34,
+        "name": "Swooping Snitchbug",
+        "family": "Scarpanid",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 3,
+        "health": 1000,
+        "attacks": [
+            "N"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Remove the wings, marinate a well- marbled steak for several hours in a chipotle marinade, then charbroil to perfection.”"
+    },
+    {
+        "id": 35,
+        "name": "Skitter Leaf",
+        "family": "Skitterling",
+        "appearances": [
+            2,
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 45,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“The superb amalgamation of juicy meat and leafy greens ensures that the [REDACTED] will be the new spinach!”"
+    },
+    {
+        "id": 36,
+        "name": "Desiccated Skitter Leaf",
+        "family": "Skitterling",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 74,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“No preparation needed to enjoy this flavorful beast! Its natural crunch gives way to an intriguing mouthfeel.”"
+    },
+    {
+        "id": 37,
+        "name": "Fiery Dweevil",
+        "family": "Dweevil",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 2,
+        "health": 300,
+        "attacks": [
+            "I"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“The search for a gourmet, high-protein salad-topping alternative to bacon bits is over! Grind this spicy [REDACTED] into tasty microchunks, then toss them generously over your salad to add instant flair AND flavor!”"
+    },
+    {
+        "id": 38,
+        "name": "Anode Dweevil",
+        "family": "Dweevil",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 2,
+        "health": 300,
+        "attacks": [
+            "H"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Raw [REDACTED] makes for an unforgettable sushi treat, but if it is not prepared by an expert hand with exacting precision, consumption could result in a jolting electrical explosion of apocalyptic proportion.”"
+    },
+    {
+        "id": 39,
+        "name": "Hydro Dweevil",
+        "family": "Dweevil",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 2,
+        "health": 300,
+        "attacks": [
+            "E"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Inedible. Effects of consumption include uncontrollable arm flailing and enthusiastic dish washing.”"
+    },
+    {
+        "id": 40,
+        "name": "Iceblown Dweevil",
+        "family": "Dweevil",
+        "appearances": [
+            4
+        ],
+        "weight": 2,
+        "health": 300,
+        "attacks": [
+            "C"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Soak the legs in fruit juice, and freeze. Serve as a refreshing ice pop!”"
+    },
+    {
+        "id": 41,
+        "name": "Venom Dweevil",
+        "family": "Dweevil",
+        "appearances": [
+            4
+        ],
+        "weight": 2,
+        "health": 300,
+        "attacks": [
+            "G"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Exposure to even extreme heat doesn't seem to rid this creature of deposits of potent gas. It's probably best for everyone if you avoid eating this hazardous fare.”"
+    },
+    {
+        "id": 42,
+        "name": "Arachnode",
+        "family": "Awrapnid",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 3,
+        "health": 450,
+        "attacks": [
+            "B",
+            "T"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Pluck off the legs, crack open, and savor the meat inside. Dip them in soy sauce first for a nice mix of sweet and salty.”"
+    },
+    {
+        "id": 43,
+        "name": "Baldy Long Legs",
+        "family": "Arachnorb",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 0,
+        "health": 3700,
+        "attacks": [
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Not as tasty as it looks. Completely inedible.”"
+    },
+    {
+        "id": 44,
+        "name": "Man-at-Legs",
+        "family": "Arachnorb",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 0,
+        "health": 5000,
+        "attacks": [
+            "J"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Although the meat is a bit on the metallic side, the oil makes a mouthwatering gravy or lubricative vinaigrette.”"
+    },
+    {
+        "id": 45,
+        "name": "Groovy Long Legs",
+        "family": "Arachnorb",
+        "appearances": [
+            4
+        ],
+        "weight": 0,
+        "health": 11000,
+        "attacks": [
+            "F",
+            "L"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“This creature is mostly tendon, so it often gets stuck in your teeth. Smells like burnt plastic or possibly metal.”"
+    },
+    {
+        "id": 46,
+        "name": "Anode Beetle",
+        "family": "Scarab beetle",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 3,
+        "health": 350,
+        "attacks": [
+            "H"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Drain the electrical charge before boiling. Although it is possible to eat an [REDACTED] while it is charged, doing so may result in an unpleasant tingling sensation.”"
+    },
+    {
+        "id": 47,
+        "name": "Iridescent Flint Beetle",
+        "family": "Flint beetle",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 0,
+        "health": 200,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“An essential flavor-accentuating ingredient in gumbo and jambalaya. Also delicious in soups, broths, and marinades.”"
+    },
+    {
+        "id": 48,
+        "name": "Doodlebug",
+        "family": "Flint beetle",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 0,
+        "health": 400,
+        "attacks": [
+            "G"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“Looking for a flavor that will surprise and delight your guests? This beast's aroma may surprise your guests, but it won't be delightful!”"
+    },
+    {
+        "id": 49,
+        "name": "Iridescent Glint Beetle",
+        "family": "Glint beetle",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 0,
+        "health": 600,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“This precious treat is exceptionally rare. I could sell it back at home for a fortune! Then I could use the cash to upgrade my kitchen, buy galactic-class ingredients, and even star in my own cooking show...the Insect Gourmet!”"
+    },
+    {
+        "id": 50,
+        "name": "Mitite",
+        "family": "Mitite",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 1,
+        "health": 1,
+        "attacks": [
+            "M"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“Flash fry with garlic and red chilies in a hot pan, then sprinkle with grated Gorgonzola. Some dinner guests may find the legs unappealing, so it's best to remove them before serving.”"
+    },
+    {
+        "id": 51,
+        "name": "Skutterchuck",
+        "family": "Heavil",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 3,
+        "health": 300,
+        "attacks": [
+            "R",
+            "F",
+            "U"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“An acquired taste, but it's really quite addictive once you get used to it. No special preparation necessary.”"
+    },
+    {
+        "id": 52,
+        "name": "Skeeterskate",
+        "family": "Spitterspatter",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 2,
+        "health": 45,
+        "attacks": [
+            "E"
+        ],
+        "habitat": [
+            "W"
+        ],
+        "louieNote": "“The extremities cannot be used for food, but you can drink the liquid inside for a zesty beverage!”"
+    },
+    {
+        "id": 53,
+        "name": "Muckerskate",
+        "family": "Spitterspatter",
+        "appearances": [
+            4
+        ],
+        "weight": 2,
+        "health": 45,
+        "attacks": [
+            "N"
+        ],
+        "habitat": [
+            "M"
+        ],
+        "louieNote": "“Even after draining the mud, its texture remains gritty. Chew it for long enough, and your teeth will get a good scrubbing.”"
+    },
+    {
+        "id": 54,
+        "name": "White Spectralids",
+        "family": "Flutterbie",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 1,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N",
+            "A"
+        ],
+        "louieNote": "“Remove the wings, and drop straight into the deep fryer. Cook until golden or until the enticing aroma starts to sting your eyes. Serve immediately.”"
+    },
+    {
+        "id": 55,
+        "name": "Yellow Spectralids",
+        "family": "Flutterbie",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 1,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N",
+            "A"
+        ],
+        "louieNote": "“For a tasty appetizer, dip wings into a batter and fry. Can also be used to season stews and soups. Remember to first remove its bitter innards.”"
+    },
+    {
+        "id": 56,
+        "name": "Red Spectralids",
+        "family": "Flutterbie",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 1,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N",
+            "A"
+        ],
+        "louieNote": "“Spread larvae on a slice of toast for a spicy and protein-packed breakfast. Or fry up the wings at any time of day for a sweet and crunchy snack!”"
+    },
+    {
+        "id": 57,
+        "name": "Snowfake Fluttertail",
+        "family": "Snowswallow",
+        "appearances": [
+            4
+        ],
+        "weight": 15,
+        "health": 6000,
+        "attacks": [
+            "B",
+            "C"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Dice finely or puree to make a meaty sorbet. Add a tiny drizzle of fruit sauce for some punch! Pluck the wings and antennae beforehand to use as a garnish if you want to get fancy.”"
+    },
+    {
+        "id": 58,
+        "name": "Creeping Chrysanthemum",
+        "family": "Chrysanthemum",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 10,
+        "health": 2000,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“When thinly sliced, this predator's sizeable bulb makes a sumptuous pizza topping.”"
+    },
+    {
+        "id": 59,
+        "name": "Startle Spore",
+        "family": "Chrysanthemum",
+        "appearances": [
+            4
+        ],
+        "weight": 10,
+        "health": 2000,
+        "attacks": [
+            "B",
+            "G"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“If you can successfully remove the tongue's poison glands, you'll enjoy a rare opportunity to appreciate the umami synergy of the mushroom and meat combo.”"
+    },
+    {
+        "id": 60,
+        "name": "Breadbug",
+        "family": "Breadbug",
+        "appearances": [
+            1,
+            2,
+            4
+        ],
+        "weight": 3,
+        "health": 1000,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“[REDACTED] are hearty and nutritious but also bland and unimaginative. They may be palatable in a pinch, but they hold no true culinary promise.”"
+    },
+    {
+        "id": 61,
+        "name": "Giant Breadbug",
+        "family": "Breadbug",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 12,
+        "health": 2000,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Although cooking this colossal beast yields a mountain of meat, every ounce of it is flavorless. Only suitable for intergalactic all-you-can-eat buffets.”"
+    },
+    {
+        "id": 62,
+        "name": "Gildemandwee",
+        "family": "Amphibiland",
+        "appearances": [
+            4
+        ],
+        "weight": 5,
+        "health": 500,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Heat the golden crystals on its back until they melt into a caramel sauce. Flip the creature upside down, and bake until the skin develops a crunchy, candied crust.”"
+    },
+    {
+        "id": 63,
+        "name": "Gildemander",
+        "family": "Amphibiland",
+        "appearances": [
+            4
+        ],
+        "weight": 20,
+        "health": 6000,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“The meat gives off a faint aroma similar to a hot pepper. The flavor itself is subtle and elegant. Chargrill the lantern until blackened, and you've got a nutritional superfood.”"
+    },
+    {
+        "id": 64,
+        "name": "Miniature Snootwhacker",
+        "family": "Snootwhack",
+        "appearances": [
+            4
+        ],
+        "weight": 7,
+        "health": 500,
+        "attacks": [
+            "V"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Gently peel the skin back from the nose. Its meat has a grassy bitterness. Tastes like cucumber.”"
+    },
+    {
+        "id": 65,
+        "name": "Mammoth Snootwhacker",
+        "family": "Snootwhack",
+        "appearances": [
+            4
+        ],
+        "weight": 20,
+        "health": 7000,
+        "attacks": [
+            "B",
+            "V"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“The bitter flavor fades as they grow, replaced by a sweet mellow aroma. Stew the base of the trunk, grill the middle, or smoke the tip. The possibilities are endless!”"
+    },
+    {
+        "id": 66,
+        "name": "Sunsquish",
+        "family": "Squishsquirt",
+        "appearances": [
+            4
+        ],
+        "weight": 1,
+        "health": 450,
+        "attacks": [
+            "B",
+            "T"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Season with salt and pepper.”"
+    },
+    {
+        "id": 67,
+        "name": "Foolix",
+        "family": "Goolix",
+        "appearances": [
+            4
+        ],
+        "weight": 5,
+        "health": 12000,
+        "attacks": [
+            "B",
+            "T"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Gently remove the jellied parts. Add fruit and a sweetener of your choice, then serve as a gelatin dessert.”"
+    },
+    {
+        "id": 68,
+        "name": "Downy Snagret",
+        "family": "Snavian",
+        "appearances": [
+            4
+        ],
+        "weight": 3,
+        "health": 300,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Grind up the meat and cartilage, then mold into meatballs. The tender texture of the meat contrasts nicely with the crunchy, chewy cartilage bits.”"
+    },
+    {
+        "id": 69,
+        "name": "Burrowing Snagret",
+        "family": "Snavian",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 15,
+        "health": 2500,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "G"
+        ],
+        "louieNote": "“Slice the serpentine torso into thin medallions, skewer on a metal rod with Hocotate onions, and barbecue over an open flame.”"
+    },
+    {
+        "id": 70,
+        "name": "Waddlequaff",
+        "family": "Gourdfeather",
+        "appearances": [
+            4
+        ],
+        "weight": 7,
+        "health": 1000,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Breasts, thighs, and wings can be baked, roasted, or fried. The rest of the carcass is great for flavoring a rich soup stock.”"
+    },
+    {
+        "id": 71,
+        "name": "Scorchcake",
+        "family": "Shellcake",
+        "appearances": [
+            4
+        ],
+        "weight": 7,
+        "health": 1000,
+        "attacks": [
+            "F",
+            "I"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Remove the internal meat, and place directly on the shell while it's still smoldering to cook. It almost smells better than it tastes.”"
+    },
+    {
+        "id": 72,
+        "name": "Shockcake",
+        "family": "Shellcake",
+        "appearances": [
+            4
+        ],
+        "weight": 7,
+        "health": 1000,
+        "attacks": [
+            "F",
+            "H"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Sauté in butter, and cover with a sauce made from the green liver paste. Anyone with a highly developed palate will enjoy the slightly bitter flavor profile.”"
+    },
+    {
+        "id": 73,
+        "name": "Freezecake",
+        "family": "Shellcake",
+        "appearances": [
+            4
+        ],
+        "weight": 7,
+        "health": 1000,
+        "attacks": [
+            "C",
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“The meat under the icy side of the shell is quite muscular, while the other side is nice and fatty. Two great tastes in one!”"
+    },
+    {
+        "id": 74,
+        "name": "Puffstool",
+        "family": "Sporovid",
+        "appearances": [
+            1,
+            4
+        ],
+        "weight": 12,
+        "health": 15000,
+        "attacks": [
+            "L"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Flip upside down, and cook cap over a charcoal grill, low and slow. Once it starts to sweat, it's ready to eat.”"
+    },
+    {
+        "id": 75,
+        "name": "Toxstool",
+        "family": "Sporovid",
+        "appearances": [
+            4
+        ],
+        "weight": 12,
+        "health": 15000,
+        "attacks": [
+            "G",
+            "W"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Bury underground for about 40 days so the poison can leech out. Its smell will make you gag, but the flavor has notes of chocolate!”"
+    },
+    {
+        "id": 76,
+        "name": "Moldy Dwarf Bulborb",
+        "family": "Sporovid",
+        "appearances": [
+            4
+        ],
+        "weight": 3,
+        "health": 150,
+        "attacks": [
+            "B",
+            "G"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Tastes best if eaten just before the meat spoils. Once all the mold has been removed, enjoy a unique flavor reminiscent of dry-aged meat.”"
+    },
+    {
+        "id": 77,
+        "name": "Moldy Slooch",
+        "family": "Sporovid",
+        "appearances": [
+            4
+        ],
+        "weight": 3,
+        "health": 300,
+        "attacks": [
+            "B",
+            "G"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“After removing the poison, the broth is fragrant and savory. Don't drink too much, or you'll find yourself with a crippling tummy ache.”"
+    },
+    {
+        "id": 78,
+        "name": "Pyroclasmic Slooch",
+        "family": "Slooch",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 3,
+        "health": 300,
+        "attacks": [
+            "B",
+            "I"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Remove tongue and discard the rest. Cook over a charcoal grill until medium rare.”"
+    },
+    {
+        "id": 79,
+        "name": "Bearded Amprat",
+        "family": "Numbouse",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 7,
+        "health": 750,
+        "attacks": [
+            "B",
+            "H"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Pan roast the thighs with sprigs of rosemary and whole garlic cloves. Finish with a squeeze of fruit juice to highlight the subtle notes of the lingering electricity.”"
+    },
+    {
+        "id": 80,
+        "name": "Mamuta",
+        "family": "Unknown",
+        "appearances": [
+            1,
+            2,
+            4
+        ],
+        "weight": 10,
+        "health": 1800,
+        "attacks": [
+            "N"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Inedible. Tastes like chicken.”"
+    },
+    {
+        "id": 81,
+        "name": "Porquillion",
+        "family": "Sharpshell",
+        "appearances": [
+            4
+        ],
+        "weight": 12,
+        "health": 5000,
+        "attacks": [
+            "R",
+            "P"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Cut the meat into four even slices. Dip slices into a beaten egg, then dredge in bread crumbs. Fry over low heat.”"
+    },
+    {
+        "id": 82,
+        "name": "Honeywisp",
+        "family": "Honeywisp",
+        "appearances": [
+            1,
+            2,
+            4
+        ],
+        "weight": 0,
+        "health": 1,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Although the eggs are small, the yolk has a distinctly bold and tangy flavor. Try tossing a few in a pan along with your choice of meat and fresh vegetables, and cook up a country scramble!”"
+    },
+    {
+        "id": 83,
+        "name": "Puffy Blowhog",
+        "family": "Blowhog",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 3000,
+        "attacks": [
+            "D"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Slice this creature's featherlight skin into triangles, deep-fry until crispy, and salt generously. Makes the perfect scooping chip to accompany fresh mango salsa!”"
+    },
+    {
+        "id": 84,
+        "name": "Icy Blowhog",
+        "family": "Blowhog",
+        "appearances": [
+            4
+        ],
+        "weight": 1,
+        "health": 3000,
+        "attacks": [
+            "C"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Has the consistency of candy-coated chewing gum and leaves a refreshing, mentholated aftertaste.”"
+    },
+    {
+        "id": 85,
+        "name": "Withering Blowhog",
+        "family": "Blowhog",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 1,
+        "health": 1800,
+        "attacks": [
+            "X"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Hang this creature on a rack, and sun dry on a hot afternoon. When suitably crisp, grind the sun-dried beast into powder. Makes a great substitute for cayenne or curry powder!”"
+    },
+    {
+        "id": 86,
+        "name": "Lesser Spotted Jellyfloat",
+        "family": "Jellyfloat",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 0,
+        "health": 1500,
+        "attacks": [
+            "B",
+            "T"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Similar in taste and texture to gelatin, this jiggling mass of jelly can be sculpted into all kinds of creative shapes. As a bonus, it also doubles as professional-grade hair gel. It's the perfect cool summer treat!”"
+    },
+    {
+        "id": 87,
+        "name": "Greater Spotted Jellyfloat",
+        "family": "Jellyfloat",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 0,
+        "health": 2500,
+        "attacks": [
+            "B",
+            "T"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Like a fine cheese, the aroma of this fluid floater can be oppressive, but its flavor must be experienced to be believed. Also makes an unforgettable nondairy spread!”"
+    },
+    {
+        "id": 88,
+        "name": "Wolpole",
+        "family": "Amphituber",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 74,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "U"
+        ],
+        "louieNote": "“[REDACTED] can be eaten raw, but they're much more flavorful when steamed or grilled. Also heavenly in risotto! Feel free to experiment with this lush ingredient.”"
+    },
+    {
+        "id": 89,
+        "name": "Yellow Wollyhop",
+        "family": "Amphituber",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 5,
+        "health": 900,
+        "attacks": [
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Coat in a thick batter and deep-fry for a down-home flavor you won't soon forget!”"
+    },
+    {
+        "id": 90,
+        "name": "Wollyhop",
+        "family": "Amphituber",
+        "appearances": [
+            1,
+            2,
+            4
+        ],
+        "weight": 5,
+        "health": 1300,
+        "attacks": [
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“[REDACTED] are best ground up, shaped into a patty, and flame broiled on a grill. Slap on tomato slices, lettuce, onions, and ketchup, then slide the patty between a sesame-seed bun for the ultimate beast-burger experience.”"
+    },
+    {
+        "id": 91,
+        "name": "Chillyhop",
+        "family": "Amphituber",
+        "appearances": [
+            4
+        ],
+        "weight": 5,
+        "health": 900,
+        "attacks": [
+            "C",
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Remove the tender meat surrounding the eyes, and stew with soy sauce. The collagen fibers are simply melt-in-your-mouth delicious.”"
+    },
+    {
+        "id": 92,
+        "name": "Masterhop",
+        "family": "Amphituber",
+        "appearances": [
+            4
+        ],
+        "weight": 15,
+        "health": 3000,
+        "attacks": [
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Meat can be consumed if first dehydrated with a lot of salt. But the eyeballs and the legs are the best parts.”"
+    },
+    {
+        "id": 93,
+        "name": "Water Dumple",
+        "family": "Grub-dog",
+        "appearances": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "weight": 5,
+        "health": 200,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "U"
+        ],
+        "louieNote": "“Deep-fry [REDACTED] without batter for all of the flavor with half the fat!”"
+    },
+    {
+        "id": 94,
+        "name": "Puckering Blinnow",
+        "family": "Elips",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 1,
+        "health": 74,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "U"
+        ],
+        "louieNote": "“Slice raw and serve as sashimi. The marbled fat gives this dish a deep umami flavor.”"
+    },
+    {
+        "id": 95,
+        "name": "Pricklepuff",
+        "family": "Pricklepuff",
+        "appearances": [
+            4
+        ],
+        "weight": 7,
+        "health": 300,
+        "attacks": [
+            "P"
+        ],
+        "habitat": [
+            "U"
+        ],
+        "louieNote": "“Remove the poisonous internal organs, then slice thinly and serve as sashimi. The firm meat is brimming with umami flavor. Pairs well with a light, refreshing citrus vinaigrette.”"
+    },
+    {
+        "id": 96,
+        "name": "Waddlepus",
+        "family": "Flobbler",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 7,
+        "health": 900,
+        "attacks": [
+            "K"
+        ],
+        "habitat": [
+            "N",
+            "U"
+        ],
+        "louieNote": "“Perfect for make-ahead meals! Marinate the boiled meat in balsamic vinegar, and chill for a few hours. The longer you let it sit, the richer the flavor!”"
+    },
+    {
+        "id": 97,
+        "name": "Aristocrab Offspring",
+        "family": "Onionshell",
+        "appearances": [
+            4
+        ],
+        "weight": 3,
+        "health": 450,
+        "attacks": [
+            "B",
+            "K"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“Throw a mountain of [REDACTED] into a pot for a yummy and simple miso soup broth.”"
+    },
+    {
+        "id": 98,
+        "name": "Peckish Aristocrab",
+        "family": "Onionshell",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 7,
+        "health": 1500,
+        "attacks": [
+            "B",
+            "K"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Great for hot pot! Remove the shell, and cook legs in the hot broth. When they turn nice and red, pull them out, and slather in liver paste before eating!”"
+    },
+    {
+        "id": 99,
+        "name": "Grubchucker",
+        "family": "Crablipps",
+        "appearances": [
+            4
+        ],
+        "weight": 12,
+        "health": 5000,
+        "attacks": [
+            "B",
+            "T"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Pluck off the lips, and serve with lemon and salt as an appetizer. Coat the arms and legs with plenty of miso for a full-course dinner in a shell!”"
+    },
+    {
+        "id": 100,
+        "name": "Hermit Crawmad",
+        "family": "Crawmad",
+        "appearances": [
+            2,
+            3,
+            4
+        ],
+        "weight": 5,
+        "health": 750,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "G",
+            "U"
+        ],
+        "louieNote": "“Shuck from the shell, bake on high heat until crispy, then dip in a pot of melted milk chocolate. Lip-smacking sweet!”"
+    },
+    {
+        "id": 101,
+        "name": "Bug-Eyed Crawmad",
+        "family": "Crawmad",
+        "appearances": [
+            3,
+            4
+        ],
+        "weight": 15,
+        "health": 2000,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "G",
+            "U"
+        ],
+        "louieNote": "“When grilled, serves as an excellent filling for an offbeat po'boy. If you have any left over, add it to a liver paste to deepen the flavor.”"
+    },
+    {
+        "id": 102,
+        "name": "Crusted Rumpup",
+        "family": "Armrakid",
+        "appearances": [
+            4
+        ],
+        "weight": 20,
+        "health": 5000,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“The tip of the tail tastes almost fruity, with notes of sweet and sour. Pairs well with soft-ripened cheeses.”"
+    },
+    {
+        "id": 103,
+        "name": "Pearly Clamclamp",
+        "family": "Snareshell",
+        "appearances": [
+            1,
+            4
+        ],
+        "weight": 10,
+        "health": 1000,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N",
+            "U"
+        ],
+        "louieNote": "“Heat in the shell over a strong fire to bring out the umami-rich juices. Finely mince the mantle and toss with noodles. Top with sesame seeds.”"
+    },
+    {
+        "id": 104,
+        "name": "Toady Bloyster",
+        "family": "Mollusking",
+        "appearances": [
+            2,
+            3,
+            4
+        ],
+        "weight": 3,
+        "health": 1500,
+        "attacks": [
+            "B",
+            "M"
+        ],
+        "habitat": [
+            "N",
+            "U"
+        ],
+        "louieNote": "“Pan sear with herbs and oil until lightly crusted on the outside and rosy on the inside. Complement the savory flavors with a light and buttery crème sauce.”"
+    },
+    {
+        "id": 105,
+        "name": "Bloomcap Bloyster",
+        "family": "Mollusking",
+        "appearances": [
+            4
+        ],
+        "weight": 8,
+        "health": 3000,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“The fatty muscle that controls those undulating motions must be eaten fresh. All that quick movement means the meat toughens quickly.”"
+    },
+    {
+        "id": 106,
+        "name": "Bogswallow",
+        "family": "Polyocular slug",
+        "appearances": [
+            4
+        ],
+        "weight": 7,
+        "health": 1000,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "M"
+        ],
+        "louieNote": "“Leave it out overnight to drain the mud from the carcass. When ready to eat, cut into rings, then grill over high heat. The more you chew it, the more flavorful it becomes.”"
+    },
+    {
+        "id": 107,
+        "name": "Waterwraith",
+        "family": "Unknown",
+        "appearances": [
+            2,
+            4
+        ],
+        "weight": 0,
+        "health": 1800,
+        "attacks": [
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Inedible. Known to cause mass hysteria, followed by leg spasms and internal thunderings.”"
+    },
+    {
+        "id": 108,
+        "name": "Smoky Progg",
+        "family": "Unknown",
+        "appearances": [
+            1,
+            4
+        ],
+        "weight": 0,
+        "health": 5000,
+        "attacks": [
+            "O",
+            "M"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Egg tastes best when smoked. The flavor of the belly and the head is pleasantly warming.”"
+    },
+    {
+        "id": 109,
+        "name": "Ancient Sirehound",
+        "family": "Unknown",
+        "appearances": [
+            4
+        ],
+        "weight": 0,
+        "health": 45000,
+        "attacks": [
+            "B",
+            "F",
+            "R",
+            "C",
+            "V",
+            "H",
+            "I",
+            "O",
+            "M"
+        ],
+        "habitat": [
+            "N",
+            "A"
+        ],
+        "louieNote": "“The ultimate ride, plush and comfortable. I wish I could bring it home with me.”"
+    },
+    {
+        "id": 110,
+        "name": "Armored Cannon Beetle",
+        "family": "Lithopod",
+        "appearances": [
+            1
+        ],
+        "weight": 30,
+        "health": 2000,
+        "attacks": [
+            "F",
+            "R"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "\"Huh... I have no data for this creature. I must have not seen it in my expeditions to PNF 404\""
+    },
+    {
+        "id": 111,
+        "name": "Beady Long Legs",
+        "family": "Arachnorb",
+        "appearances": [
+            1,
+            2
+        ],
+        "weight": 0,
+        "health": 1300,
+        "attacks": [
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Poisonous. Consumption results in prolonged writhing and uncontrollable mirth.”"
+    },
+    {
+        "id": 112,
+        "name": "Goolix",
+        "family": "Goolix",
+        "appearances": [
+            1
+        ],
+        "weight": 0,
+        "health": 30000,
+        "attacks": [
+            "Q"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "\"Huh... I have no data for this creature. I must have not seen it in my expeditions to PNF 404\""
+    },
+    {
+        "id": 113,
+        "name": "Hairy Bulborb",
+        "family": "Grub-dog",
+        "appearances": [
+            2
+        ],
+        "weight": 10,
+        "health": 650,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Remove all of the [REDACTED]'s hair, wrap the beast in foil along with a halved lemon, and place it directly on the grill. The foil should protect the carcass from scorching, and the lemon will give the meat an elegant hint of citrus.”"
+    },
+    {
+        "id": 114,
+        "name": "Snow Bulborb",
+        "family": "Breadbug",
+        "appearances": [
+            2
+        ],
+        "weight": 3,
+        "health": 150,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Best grilled and served hot over a bed of fresh spinach and crumbled blue cheese.”"
+    },
+    {
+        "id": 115,
+        "name": "Bulbmin",
+        "family": "Pikmin",
+        "appearances": [
+            2
+        ],
+        "weight": 7,
+        "health": 300,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Grind the meat and season with allspice, salt, and ground white pepper. Press the seasoned meat into meat satchels, then panfry them with onions. Prior to serving, smother the brats with dijon mustard and sauerkraut. Buns are optional.”"
+    },
+    {
+        "id": 116,
+        "name": "Decorated Cannon Beetle",
+        "family": "Lithopod",
+        "appearances": [
+            2
+        ],
+        "weight": 7,
+        "health": 850,
+        "attacks": [
+            "F",
+            "R"
+        ],
+        "habitat": [
+            "G"
+        ],
+        "louieNote": "“Slice the meat into tender cutlets and vigorously apply a lime and pepper rub. Panfry until lightly crusted. Accompany with watercress and drizzle with freshly prepared tamarind sauce.”"
+    },
+    {
+        "id": 117,
+        "name": "Gatling Groink",
+        "family": "Unknown",
+        "appearances": [
+            2
+        ],
+        "weight": 10,
+        "health": 1200,
+        "attacks": [
+            "J"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Remove the cannon and ammo stockpile, then vigorously tenderize the meat with a heavy mallet. Stir-fry with caramelized onions and figwort sprouts. Spoon over a steaming bowl of fluffy white rice and douse with chili sauce.”"
+    },
+    {
+        "id": 118,
+        "name": "Cloaking Burrow-nit",
+        "family": "Burrow-nit",
+        "appearances": [
+            2
+        ],
+        "weight": 8,
+        "health": 300,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“Boil in the shell with a pinch of salt until bright red, and serve piping hot with tartar sauce.”"
+    },
+    {
+        "id": 119,
+        "name": "Ravenous Whiskerpillar",
+        "family": "Whiskerpillar",
+        "appearances": [
+            2
+        ],
+        "weight": 1,
+        "health": 200,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Delicious skillet-seared or sauteed with scallions and a red Genovese sauce.”"
+    },
+    {
+        "id": 120,
+        "name": "Bumbling Snitchbug",
+        "family": "Scarpanid",
+        "appearances": [
+            2
+        ],
+        "weight": 3,
+        "health": 1500,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Remove the wings and discard the remainder of the beast. Enjoy the luxurious, wafer-thin wings with fine water-dumple caviar.”"
+    },
+    {
+        "id": 121,
+        "name": "Careening Dirigibug",
+        "family": "Dirigibug",
+        "appearances": [
+            2
+        ],
+        "weight": 3,
+        "health": 1500,
+        "attacks": [
+            "R",
+            "U"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Pull off the balloonlike air sacs, mince the meaty abdomen, and shape it into small cakes. Pan-sear the cakes until crusted, but be careful not to overcook the delicate meat. When ready to serve, garnish the plate with the vibrant air sacs. Even the most discerning dinner guest will be dazzled by the colorful presentation!”"
+    },
+    {
+        "id": 122,
+        "name": "Antenna Beetle",
+        "family": "Kettlebug",
+        "appearances": [
+            2
+        ],
+        "weight": 3,
+        "health": 700,
+        "attacks": [
+            "L"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Extract meat from the exoskeleton and sear on all sides in a hot wok to seal in the flavor. Top the dish off with a splash of spicy peanut sauce.”"
+    },
+    {
+        "id": 123,
+        "name": "Munge Dweevil",
+        "family": "Dweevil",
+        "appearances": [
+            2
+        ],
+        "weight": 3,
+        "health": 350,
+        "attacks": [
+            "G"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Exposure to even extreme heat doesn't seem to rid this creature of deposits of potent gas. It's probably best for everyone if you avoid eating this hazardous fare.”"
+    },
+    {
+        "id": 124,
+        "name": "Volatile Dweevil",
+        "family": "Dweevil",
+        "appearances": [
+            2
+        ],
+        "weight": 0,
+        "health": 150,
+        "attacks": [
+            "U"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“This scorching species combusts upon contact with the tongue. Only edible by the adventurous and asbestos-tongued.”"
+    },
+    {
+        "id": 125,
+        "name": "Unmarked Spectralids",
+        "family": "Flitterbie",
+        "appearances": [
+            2
+        ],
+        "weight": 1,
+        "health": 1,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“[REDACTED] don't provide a lot of meat, but the exquisitely elegant wings are surprisingly tasty, particularly when expertly prepared with a sweet candied glaze.”"
+    },
+    {
+        "id": 126,
+        "name": "Pileated Snagret",
+        "family": "Snavian",
+        "appearances": [
+            2
+        ],
+        "weight": 5,
+        "health": 5000,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“You haven't lived until you've tasted a mint-braised [REDACTED] shank! Or if you're feeling especially saucy, stuff a bird with a can of your favorite savory nectar, throw it on the barbeque, and let the juices mingle to make a mean beverage-canister [REDACTED]!”"
+    },
+    {
+        "id": 127,
+        "name": "Segmented Crawbster",
+        "family": "Creep-crab",
+        "appearances": [
+            2
+        ],
+        "weight": 20,
+        "health": 3000,
+        "attacks": [
+            "F",
+            "R"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Dessert meats are all the rage on Hocotate. When the planet's finest chefs hear about the kind of sorbets, pies, and parfaits you can make with the claw meat on this sweet beast, they'll clamor for every morsel we bring home!”"
+    },
+    {
+        "id": 128,
+        "name": "Raging Long Legs",
+        "family": "Arachnorb",
+        "appearances": [
+            2
+        ],
+        "weight": 0,
+        "health": 10000,
+        "attacks": [
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Neither boiling nor baking can diminish this creature's overpowering musky scent. Only suitable for serving to unpleasant in-laws.”"
+    },
+    {
+        "id": 129,
+        "name": "Titan Dweevil",
+        "family": "Dweevil",
+        "appearances": [
+            2
+        ],
+        "weight": 0,
+        "health": 5000,
+        "attacks": [
+            "I",
+            "E",
+            "H",
+            "G"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Eaten raw, this predator's luxurious legs are bold and full flavored. What a satisfying crunch!”"
+    },
+    {
+        "id": 130,
+        "name": "Phosbat",
+        "family": "Aerodentia",
+        "appearances": [
+            3
+        ],
+        "weight": 0,
+        "health": 45,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Perfect ingredient for hot pot night! Add to the broth while no one's looking for best results.”"
+    },
+    {
+        "id": 131,
+        "name": "Phosbat Pod",
+        "family": "Aerodentia",
+        "appearances": [
+            3
+        ],
+        "weight": 0,
+        "health": 450,
+        "attacks": [
+            "S"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“You can slurp up this beast's eggs right from the shell! With a sweet and velvety texture, they melt in your mouth!”"
+    },
+    {
+        "id": 132,
+        "name": "Medusal Slurker",
+        "family": "Umbloda",
+        "appearances": [
+            3
+        ],
+        "weight": 6,
+        "health": 750,
+        "attacks": [
+            "T"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Makes for a tangy and fresh sorbet! Place in the freezer for two hours or until firm. Garnish with a slice of candied lemon before serving.”"
+    },
+    {
+        "id": 133,
+        "name": "Swarming Sheargrub",
+        "family": "Mandiblard",
+        "appearances": [
+            3
+        ],
+        "weight": 1,
+        "health": 45,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Boil and swallow whole. The real gastronomic joy of this creature is how smooth it goes down.”"
+    },
+    {
+        "id": 134,
+        "name": "Sputtlefish",
+        "family": "Squirdler",
+        "appearances": [
+            3
+        ],
+        "weight": 5,
+        "health": 300,
+        "attacks": [
+            "B",
+            "M"
+        ],
+        "habitat": [
+            "U"
+        ],
+        "louieNote": "“Drain ink, and reduce over stove top until thick and aromatic. Add meat. Simmer in the ink sauce until tender. So good, you'll have to go back for seconds.”"
+    },
+    {
+        "id": 135,
+        "name": "Nectarous Dandelfly",
+        "family": "Dandelfly",
+        "appearances": [
+            3
+        ],
+        "weight": 0,
+        "health": 15,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Tear the meat right off the belly and eat raw. The bitterness of the meat really highlights the sweetness of the nectar.”"
+    },
+    {
+        "id": 136,
+        "name": "Scornet",
+        "family": "Huntinpeck",
+        "appearances": [
+            3
+        ],
+        "weight": 1,
+        "health": 15,
+        "attacks": [
+            "P"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Roast over a low fire until golden brown. Add a pinch of salt and set out as an appetizer or perhaps as a simple, aromatic centerpiece.”"
+    },
+    {
+        "id": 137,
+        "name": "Shaggy Long Legs",
+        "family": "Arachnorb",
+        "appearances": [
+            3
+        ],
+        "weight": 0,
+        "health": 2500,
+        "attacks": [
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Caution: DO NOT EAT!”"
+    },
+    {
+        "id": 138,
+        "name": "Calcified Crushblat",
+        "family": "Crushblat",
+        "appearances": [
+            3
+        ],
+        "weight": 12,
+        "health": 1000,
+        "attacks": [
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“This beast's bouncy texture is addictive, but it can be a choking hazard if overcooked. Sauté and drizzle with brown butter to draw out the nutty undertones.”"
+    },
+    {
+        "id": 139,
+        "name": "Armored Mawdad",
+        "family": "Mawdad",
+        "appearances": [
+            3
+        ],
+        "weight": 20,
+        "health": 4000,
+        "attacks": [
+            "B",
+            "T"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“Best enjoyed fresh. If the legs aren't twitching when you put it on the grill, don't bother.”"
+    },
+    {
+        "id": 140,
+        "name": "Vehemoth Phosbat",
+        "family": "Aerodentia",
+        "appearances": [
+            3
+        ],
+        "weight": 15,
+        "health": 8000,
+        "attacks": [
+            "B",
+            "T"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Lightly bread and fry whole. Slather a brioche bun with rémoulade, then top with fried beast and a handful of arugula. Serve with a lemon wedge.”"
+    },
+    {
+        "id": 141,
+        "name": "Sandbelching Meerslug",
+        "family": "Meerslug",
+        "appearances": [
+            3
+        ],
+        "weight": 20,
+        "health": 10000,
+        "attacks": [
+            "B",
+            "F",
+            "R"
+        ],
+        "habitat": [
+            "N",
+            "G"
+        ],
+        "louieNote": "“These are crowd-pleasers! Soak overnight to remove remaining sand. Slice cleaned meat into thick pieces and place on grill. Then apply a generous coating of barbecue sauce and cook until sticky and crispy.”"
+    },
+    {
+        "id": 142,
+        "name": "Scornet Maestro",
+        "family": "Huntinpeck",
+        "appearances": [
+            3
+        ],
+        "weight": 10,
+        "health": 8000,
+        "attacks": [
+            "A"
+        ],
+        "habitat": [
+            "A"
+        ],
+        "louieNote": "“Slice thin, fry until golden brown, and serve when cool. Sprinkle the crumbs on top of a creamy clam chowder to give it a little kick!”"
+    },
+    {
+        "id": 143,
+        "name": "Quaggled Mireclops",
+        "family": "Mireclops",
+        "appearances": [
+            3
+        ],
+        "weight": 20,
+        "health": 8000,
+        "attacks": [
+            "B",
+            "F"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“A fruit so sweet, it could be a dessert unto itself. Remove and discard peel and core. Slice fruit into small pieces and enjoy!”"
+    },
+    {
+        "id": 144,
+        "name": "Mysterious Life-Form",
+        "family": "Unknown",
+        "appearances": [
+            3
+        ],
+        "weight": 0,
+        "health": 2000,
+        "attacks": [
+            "T",
+            "Y"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "\"Huh... I have no data for this creature. I must have not seen it in my expeditions to PNF 404\""
+    },
+    {
+        "id": 145,
+        "name": "Plasm Wraith",
+        "family": "Unknown",
+        "appearances": [
+            3
+        ],
+        "weight": 0,
+        "health": 320,
+        "attacks": [
+            "R",
+            "Q",
+            "I",
+            "H",
+            "F",
+            "P"
+        ],
+        "habitat": [
+            "N",
+            "A"
+        ],
+        "louieNote": "“Despite its refreshing citrus scent, the flavor of this beast is decidedly... dangerous.”"
+    }
+]

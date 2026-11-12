@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikmindle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<button id="help-button" aria-label="How to Play" title="How to Play">
+		?
+	</button>
+
+	<dialog id="help-dialog">
+		<button id="close-help" aria-label="Close instructions">×</button>
+
+		<h2>How to Play</h2>
+
+		<p>Guess the daily Pikmin enemy!</p>
+
+		<p>
+			Each guess reveals how closely your chosen enemy
+			matches the daily enemy across six attributes.
+		</p>
+
+		<div class="help-colors">
+			<p>
+				🟩 <strong>Green:</strong> Exact match.
+			</p>
+			<p>
+				🟨 <strong>Yellow:</strong> Partial or close match.
+			</p>
+			<p>
+				🟥 <strong>Red:</strong> Incorrect match.
+			</p>
+		</div>
+
+		<h3>Attributes</h3>
+
+		<ul>
+			<li>
+				<strong>Family:</strong> The enemy's biological family.
+			</li>
+			<li>
+				<strong>Games:</strong> Which Pikmin games the enemy appears in.
+			</li>
+			<li>
+				<strong>Weight:</strong> How many Pikmin are needed to carry it.
+			</li>
+			<li>
+				<strong>Health:</strong> The enemy's HP. (Ranges from 1 to 45000).
+			</li>
+			<li>
+				<strong>Attacks:</strong> The enemy's possible attacks/effects on pikmin.
+			</li>
+			<li>
+				<strong>Movement:</strong> Where and how the enemy moves.
+			</li>
+		</ul>
+
+		<p>
+			For enemies with different stats between games, the latest iteration was used.
+		</p>
+
+		<p>
+			For Weight and Health, ↑ means the answer is higher,
+			while ↓ means it's lower.
+		</p>
+
+		<p>
+			Yellow Weight means the value is within two weight
+			increments of the answer. Yellow Health means the
+			difference is at most 100 HP or 50% of the target enemy's HP.
+		</p>
+
+		<h3>Hints</h3>
+
+		<p>
+			Louie's "Help" unlocks after 3 guesses.
+			The enemy's silhouette unlocks after 6 guesses.
+			Using hints is optional.
+		</p>
+
+		<p>A new enemy is available every day!</p>
+	</dialog>
+
+	<h1>Pikmindle</h1>
+    <p>Guess the Pikmin enemy!</p>
+
+	<p id="puzzle-number"></p>
+
+	<div id="hints-container">
+		<p id="guess-counter">Guesses: 0</p>
+		<button id="louie-hint" disabled="">
+			Louie's... Help?
+		</button>
+
+		<button id="silhouette-hint" disabled="">
+			Silhouette
+		</button>
+	</div>
+
+	<div id="hint-display">
+		<div id="louie-note-display"></div>
+		<div id="silhouette-display"></div>
+	</div>
+
+	<div id="victory-message"></div>
+
+	<button id="share-button" hidden="">Share Results</button>
+
+
+	<div id="next-enemy-timer" hidden="">
+		<p>New enemy in</p>
+		<span id="countdown">00:00:00</span>
+	</div>
+
+
+	<div class="search-container">
+		<input
+			type="text"
+			id="enemy-search"
+			placeholder="Search for an enemy..."
+			autocomplete="off"
+		>
+
+			<div id="suggestions"></div>
+			<button id="guess-button">Guess</button>
+		</div>
+
+	<p id="scroll-hint">↔ Swipe to view more attributes</p>
+
+	<div class="results-container">
+		<table id="guess-table">
+			<thead>
+				<tr>
+					<th>Enemy</th>
+					<th>Family</th>
+					<th>Games</th>
+					<th>Weight</th>
+					<th>Health</th>
+					<th>Attacks</th>
+					<th>Movement</th>
+				</tr>
+			</thead>
+			<tbody id="guess-results"></tbody>
+		</table>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
