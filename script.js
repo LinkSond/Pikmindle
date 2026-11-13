@@ -70,8 +70,8 @@ function translateAttributes(codes, lookupTable) {
 }
 
 function getTodayKey() { // The one that gets today's enemy
-    //return new Date().toISOString().slice(0, 10);
-     return "2026-12-11"; // for testing only
+    return new Date().toISOString().slice(0, 10);
+    //return "2026-12-11"; // for testing only
 }
 
 function updateGuessCounter() { // The one that updates the guess counter (and like, the stuff associated with it)
