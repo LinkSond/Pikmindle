@@ -627,6 +627,50 @@ input {
     margin: 8px 0;
 }
 
+#kofi-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin: 30px auto 20px;
+    padding: 10px 16px;
+
+    background: rgba(0, 45, 70, 0.92);
+    color: #66dcff;
+
+    border: 1px solid #43c9ef;
+    border-radius: 2px;
+
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+#kofi-button:hover {
+    background: rgba(35, 155, 195, 0.5);
+    box-shadow: 0 0 12px rgba(67, 201, 239, 0.35);
+}
+
+#kofi-button:hover {
+    background: rgba(35, 155, 195, 0.5);
+    box-shadow: 0 0 12px rgba(67, 201, 239, 0.35);
+}
+
+#site-footer {
+    width: 100%;
+    padding: 15px 0 25px;
+    text-align: center;
+}
+
+#site-footer #kofi-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 768px) {
     .results-container {
         width: 100%;
@@ -773,7 +817,7 @@ input {
         padding: 8px 12px;
     }
  
-#victory-message {
+    #victory-message {
         font-size: 19px;
         padding: 0 12px;
     }
@@ -789,5 +833,11 @@ input {
 
     #countdown {
         font-size: 28px;
+    }
+
+   #kofi-button {
+        padding: 8px 12px;
+        font-size: 12px;
+        gap: 6px;
     }
 }
