@@ -2673,5 +2673,22 @@
             "A"
         ],
         "louieNote": "“Despite its refreshing citrus scent, the flavor of this beast is decidedly... dangerous.”"
+    },
+    {
+        "id": 146,
+        "name": "Ranging Bloyster",
+        "family": "Mollusking",
+        "appearances": [
+            2
+        ],
+        "weight": 3,
+        "health": 1500,
+        "attacks": [
+            "B"
+        ],
+        "habitat": [
+            "N"
+        ],
+        "louieNote": "“The gills are best prepared deep-fried in an herb and bread-crumb batter. Also tasty poached and drenched with fine soy sauce.”"
     }
 ]
