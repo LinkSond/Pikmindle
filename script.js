@@ -30,7 +30,7 @@ const attackNames = {
     "A": "Passive",
     "B": "Eats",
     "C": "Freezes",
-    "D": "Blows",
+    "D": "Blows", // batata
     "E": "Splashes",
     "F": "Crushes",
     "G": "Poisons",
