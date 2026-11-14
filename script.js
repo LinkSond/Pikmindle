@@ -588,6 +588,20 @@ closeHelpButton.addEventListener("click", () => {
     helpDialog.close();
 });
 
+helpDialog.addEventListener("click", (event) => {
+    const rect = helpDialog.getBoundingClientRect();
+
+    const clickedOutside =
+        event.clientX < rect.left ||
+        event.clientX > rect.right ||
+        event.clientY < rect.top ||
+        event.clientY > rect.bottom;
+
+    if (clickedOutside) {
+        helpDialog.close();
+    }
+});
+
 searchInput.addEventListener("keydown", function(event) {
     const options = [...suggestions.querySelectorAll(".suggestion")];
 
