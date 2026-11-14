@@ -156,24 +156,38 @@ function revealLouieHint() { // The Louie one
     louieHintButton.classList.add("used");
     louieHintButton.textContent = "Louie's... Help? (Revealed)";
 
-    
+    // Main dialogue box
     const container = document.createElement("div");
-    container.classList.add("louie-hint-content");
+    container.classList.add("louie-dialogue");
 
+    // Character name
+    const header = document.createElement("div");
+    header.classList.add("louie-dialogue-header");
+    header.textContent = "Louie";
+
+    // Dialogue content
+    const body = document.createElement("div");
+    body.classList.add("louie-dialogue-body");
+
+    // Louie's portrait
     const image = document.createElement("img");
     image.src = "./images/Louie.png";
     image.alt = "Louie";
     image.classList.add("louie-image");
 
+    // Louie's note
     const note = document.createElement("p");
-    note.classList.add("louie-speech");
+    note.classList.add("louie-dialogue-text");
     note.textContent = targetEnemy.louieNote || "No note available.";
 
-    container.appendChild(image);
-    container.appendChild(note);
+    // Assemble the dialogue box
+    body.appendChild(image);
+    body.appendChild(note);
+
+    container.appendChild(header);
+    container.appendChild(body);
 
     louieNoteDisplay.appendChild(container);
-
 
     saveProgress();
 }
