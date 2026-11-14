@@ -446,7 +446,7 @@ function displayGuess(enemy) { // The one that shows the guesses
 }
 
 function getPuzzleNumber() { // The one that I probably overengineered
-    const startDate = Date.UTC(2026, 10, 9);
+    const startDate = Date.UTC(2026, 10, 15);
     const today = Date.parse(getTodayKey());
 
     return Math.floor((today - startDate) / 86400000) + 1;
