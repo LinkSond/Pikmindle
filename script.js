@@ -224,7 +224,7 @@ function shuffleEnemies(enemies, seed) { // The one that makes it so we're not r
 }
 
 function getDailyEnemy(enemies) { // The one that gets the daily enemy
-    const startDate = Date.UTC(2026, 10, 9);
+    const startDate = Date.UTC(2026, 10, 15);
     const today = Date.parse(getTodayKey());
 
     const daysSinceStart = Math.floor(
