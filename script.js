@@ -81,8 +81,8 @@ function translateAttributes(codes, lookupTable) {
 }
 
 function getTodayKey() { // The one that gets today's enemy
-    //return new Date().toISOString().slice(0, 10);
-    return "2026-12-11"; // for testing only
+    return new Date().toISOString().slice(0, 10);
+    //return "2026-12-11"; // for testing only
 }
 
 function updateGuessCounter() { // The one that updates the guess counter (and like, the stuff associated with it)
@@ -494,7 +494,7 @@ async function shareResults() { // The one that gets the ctrl C for sharing
     const rows = guesses.reverse().map(enemy => getShareRow(enemy));
 
     const result = [
-        `Pikmindle #${getPuzzleNumber()} — ${guessCount} ${guessCount === 1 ? "guess" : "guesses"}, ${hintsUsed} ${hintsUsed === 1 ? "hint" : "hints"}`,,
+        `Pikmindle #${getPuzzleNumber()} — ${guessCount} ${guessCount === 1 ? "guess" : "guesses"}, ${hintsUsed} ${hintsUsed === 1 ? "hint" : "hints"}`,
         ...rows,
         "",
         "https://pikmindle.com/"
