@@ -30,7 +30,7 @@ const attackNames = {
     "A": "Passive",
     "B": "Eats",
     "C": "Freezes",
-    "D": "Blows", // batata
+    "D": "Blows",
     "E": "Splashes",
     "F": "Crushes",
     "G": "Poisons",
@@ -63,6 +63,17 @@ const movementNames = {
     "M": "Mud",
 };
 
+const enemyAliases = {
+    "Caustic Dweevil": "Hydro Dweevil",
+    "Wollywog": "WollyHop",
+    "Yellow Wollywog": "Yellow Wollyhop",
+    "Spotty Bulborb": "Bulborb",
+    "Red Bulborb": "Bulborb",
+    "Dwarf Red Bulborb": "Dwarf Bulborb",
+    "Wogpole": "Wolpole",
+    "Armored Cannon Beetle Larva": "Armored Cannon Larva"
+};
+
 // FUNCTIONS
 
 function translateAttributes(codes, lookupTable) {
@@ -70,8 +81,8 @@ function translateAttributes(codes, lookupTable) {
 }
 
 function getTodayKey() { // The one that gets today's enemy
-    return new Date().toISOString().slice(0, 10);
-    //return "2026-12-11"; // for testing only
+    //return new Date().toISOString().slice(0, 10);
+    return "2026-12-11"; // for testing only
 }
 
 function updateGuessCounter() { // The one that updates the guess counter (and like, the stuff associated with it)
@@ -156,31 +167,25 @@ function revealLouieHint() { // The Louie one
     louieHintButton.classList.add("used");
     louieHintButton.textContent = "Louie's... Help? (Revealed)";
 
-    // Main dialogue box
     const container = document.createElement("div");
     container.classList.add("louie-dialogue");
 
-    // Character name
     const header = document.createElement("div");
     header.classList.add("louie-dialogue-header");
     header.textContent = "Louie";
 
-    // Dialogue content
     const body = document.createElement("div");
     body.classList.add("louie-dialogue-body");
 
-    // Louie's portrait
     const image = document.createElement("img");
     image.src = "./images/Louie.png";
     image.alt = "Louie";
     image.classList.add("louie-image");
 
-    // Louie's note
     const note = document.createElement("p");
     note.classList.add("louie-dialogue-text");
     note.textContent = targetEnemy.louieNote || "No note available.";
 
-    // Assemble the dialogue box
     body.appendChild(image);
     body.appendChild(note);
 
@@ -658,30 +663,48 @@ searchInput.addEventListener("input", function () {
     }
     
     const matches = enemies
-        .filter(enemy =>
-            enemy.name.toLowerCase().includes(searchText) &&
-            !guessedEnemies.has(enemy.id)
-        )
-        
+        .filter(enemy => {
+            if (guessedEnemies.has(enemy.id)) return false;
+
+            const nameMatches = enemy.name.toLowerCase().includes(searchText);
+
+            const aliasMatches = Object.entries(enemyAliases).some(
+                ([alias, currentName]) =>
+                    currentName.toLowerCase() === enemy.name.toLowerCase() &&
+                    alias.toLowerCase().includes(searchText)
+            );
+
+            return nameMatches || aliasMatches;
+        })
+
         .sort((a, b) => {
-            function getMatchPriority(name) {
-                name = name.toLowerCase();
+            function getMatchPriority(enemy) {
+                const names = [
+                    enemy.name,
+                    ...Object.entries(enemyAliases)
+                        .filter(([, currentName]) =>
+                            currentName.toLowerCase() === enemy.name.toLowerCase()
+                        )
+                        .map(([alias]) => alias)
+                ];
 
-                if (name.startsWith(searchText)) {
-                    return 0;
-                }
+                return Math.min(...names.map(name => {
+                    name = name.toLowerCase();
 
-                const words = name.split(/\s+/);
+                    if (name.startsWith(searchText)) return 0;
 
-                if (words.some(word => word.startsWith(searchText))) {
-                    return 1;
-                }
+                    if (name.split(/\s+/).some(word => word.startsWith(searchText))) {
+                        return 1;
+                    }
 
-                return 2;
+                    if (name.includes(searchText)) return 2;
+
+                    return 3;
+                }));
             }
 
-            const priorityA = getMatchPriority(a.name);
-            const priorityB = getMatchPriority(b.name);
+            const priorityA = getMatchPriority(a);
+            const priorityB = getMatchPriority(b);
 
             if (priorityA !== priorityB) {
                 return priorityA - priorityB;
