@@ -276,7 +276,7 @@
         "attacks": [
             "B",
             "F",
-            "L"
+            "M"
         ],
         "habitat": [
             "N",
@@ -296,7 +296,7 @@
         "attacks": [
             "B",
             "F",
-            "L"
+            "M"
         ],
         "habitat": [
             "N",
@@ -430,6 +430,7 @@
             "R"
         ],
         "habitat": [
+            "N",
             "G"
         ],
         "louieNote": "“Carefully remove every grain of sand, peel back the exoskeleton, and slurp heartily! Or deep-fry it too!”"
@@ -567,6 +568,7 @@
             "B"
         ],
         "habitat": [
+            "N",
             "A",
             "G"
         ],
@@ -1127,7 +1129,8 @@
             "A"
         ],
         "habitat": [
-            "N"
+            "N",
+            "G"
         ],
         "louieNote": "“[REDACTED] are hearty and nutritious but also bland and unimaginative. They may be palatable in a pinch, but they hold no true culinary promise.”"
     },
@@ -1145,7 +1148,8 @@
             "A"
         ],
         "habitat": [
-            "N"
+            "N",
+            "G"
         ],
         "louieNote": "“Although cooking this colossal beast yields a mountain of meat, every ounce of it is flavorless. Only suitable for intergalactic all-you-can-eat buffets.”"
     },
@@ -1731,6 +1735,7 @@
             "B"
         ],
         "habitat": [
+            "N",
             "U"
         ],
         "louieNote": "“Deep-fry [REDACTED] without batter for all of the flavor with half the fat!”"
@@ -1861,6 +1866,7 @@
         ],
         "habitat": [
             "G",
+            "N",
             "U"
         ],
         "louieNote": "“Shuck from the shell, bake on high heat until crispy, then dip in a pot of melted milk chocolate. Lip-smacking sweet!”"
@@ -2156,7 +2162,7 @@
             "R"
         ],
         "habitat": [
-            "G"
+            "N"
         ],
         "louieNote": "“Slice the meat into tender cutlets and vigorously apply a lime and pepper rub. Panfry until lightly crusted. Accompany with watercress and drizzle with freshly prepared tamarind sauce.”"
     },
