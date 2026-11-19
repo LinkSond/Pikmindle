@@ -14,6 +14,10 @@ const shareButton = document.getElementById("share-button");
 const helpButton = document.getElementById("help-button");
 const helpDialog = document.getElementById("help-dialog");
 const closeHelpButton = document.getElementById("close-help");
+const piklopediaButton = document.getElementById("piklopedia-button");
+const piklopediaDialog = document.getElementById("piklopedia-dialog");
+const closePiklopediaButton = document.getElementById("close-piklopedia");
+const piklopedia = document.getElementById("piklopedia");
 const guessedEnemies = new Set();
 
 let targetEnemy = null;
@@ -575,6 +579,30 @@ function loadProgress() { // The one that remembers
     }
 }
 
+function displayPiklopedia() {
+    piklopedia.innerHTML = "";
+
+    const sortedEnemies = [...enemies].sort((a, b) =>
+        a.name.localeCompare(b.name)
+    );
+
+    sortedEnemies.forEach(enemy => {
+        const card = document.createElement("div");
+        card.classList.add("piklopedia-enemy");
+
+        const image = document.createElement("img");
+        image.src = `./images/${enemy.id}.png`;
+        image.alt = enemy.name;
+
+        const name = document.createElement("span");
+        name.textContent = enemy.name;
+
+        card.appendChild(image);
+        card.appendChild(name);
+        piklopedia.appendChild(card);
+    });
+}
+
 // EVENT LISTENERS
 
 guessButton.addEventListener("click", submitGuess);
@@ -738,6 +766,29 @@ searchInput.addEventListener("input", function () {
 
         suggestions.appendChild(option);
     });
+});
+
+piklopediaButton.addEventListener("click", () => {
+    displayPiklopedia();
+    piklopediaDialog.showModal();
+});
+
+closePiklopediaButton.addEventListener("click", () => {
+    piklopediaDialog.close();
+});
+
+piklopediaDialog.addEventListener("click", (event) => {
+    const rect = piklopediaDialog.getBoundingClientRect();
+
+    const clickedOutside =
+        event.clientX < rect.left ||
+        event.clientX > rect.right ||
+        event.clientY < rect.top ||
+        event.clientY > rect.bottom;
+
+    if (clickedOutside) {
+        piklopediaDialog.close();
+    }
 });
 
 loadEnemies().catch(console.error);
